@@ -11,10 +11,6 @@ import com.algaworks.algafood.di.model.Cliente;
 @Component
 public class NotificadorEmailMock implements Notificador {
 	
-	public NotificadorEmailMock() {
-		System.out.println("Notificador MOCK");
-	}
-	
 	@Override
 	public void notificar(Cliente cliente, String mensagem) {
 				
