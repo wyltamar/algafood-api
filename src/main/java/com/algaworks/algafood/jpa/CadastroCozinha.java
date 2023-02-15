@@ -17,12 +17,11 @@ public class CadastroCozinha {
 	private EntityManager manager;
 	
 	public List<Cozinha> listar(){
-		
 		return manager.createQuery("from Cozinha", Cozinha.class).getResultList();
 	}
 	
 	@Transactional
-	public Cozinha adicionar(Cozinha cozinha) {
+	public Cozinha salvar(Cozinha cozinha) {
 		return manager.merge(cozinha);
 	}
 	
