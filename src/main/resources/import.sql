@@ -1,5 +1,5 @@
 insert into cozinha(nome) values ('Tailandesa');
 insert into cozinha(nome) values ('Indiana');
-insert into restaurante(nome,taxa_frete) values('Bom Gosto',10);
-insert into restaurante(nome,taxa_frete) values('Sabor da Terra',20);
-insert into restaurante(nome,taxa_frete) values('Point da Pizza',15);
+insert into restaurante(nome,taxa_frete,cozinha_id) values('Bom Gosto',10,1);
+insert into restaurante(nome,taxa_frete,cozinha_id) values('Sabor da Terra',20,2);
+insert into restaurante(nome,taxa_frete,cozinha_id) values('Point da Pizza',15,1);

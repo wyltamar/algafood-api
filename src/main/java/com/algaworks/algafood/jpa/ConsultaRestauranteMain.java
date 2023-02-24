@@ -23,7 +23,7 @@ public class ConsultaRestauranteMain {
 		List<Restaurante> restauarantes = restauranteRepository.listar();
 		
 		for (Restaurante restaurante : restauarantes) {
-			System.out.println(restaurante.getNome());
+			System.out.printf("%s - %.2f %s \n",restaurante.getNome(),restaurante.getTaxaFrete(),restaurante.getCozinha().getNome());
 		}
 	}
 
