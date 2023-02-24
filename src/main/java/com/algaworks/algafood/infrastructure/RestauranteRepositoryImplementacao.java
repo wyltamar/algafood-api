@@ -33,6 +33,7 @@ public class RestauranteRepositoryImplementacao implements RestauranteRepository
 		return manager.merge(restaurante);
 	}
 
+	@Transactional
 	@Override
 	public void remover(Restaurante restaurante) {
 		
