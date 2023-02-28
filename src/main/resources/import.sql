@@ -5,3 +5,5 @@ insert into restaurante(nome,taxa_frete,cozinha_id) values('Sabor da Terra',20,2
 insert into restaurante(nome,taxa_frete,cozinha_id) values('Point da Pizza',15,1);
 insert into forma_pagamento(descricao,restaurante_id)values('cartão de crédito',1);
 insert into forma_pagamento(descricao,restaurante_id)values('pix',2);
+insert into permissao(nome,descricao) values('Administrador','Nível de acesso dado ao administrador do sistema');
+insert into permissao(nome,descricao) values('Funcionario','Acesso dos funcionários em geral');
